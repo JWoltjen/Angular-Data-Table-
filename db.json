@@ -1,12 +1,12 @@
 {
   "productList": [
     {
-      "productName": "APple",
-      "category": "Fruits",
+      "productName": "Iphone",
+      "category": "Electronics",
       "freshness": "Brand New",
-      "price": 100,
-      "comment": "This is a test",
-      "date": "2022-10-05T05:00:00.000Z",
+      "price": 799,
+      "comment": "Everyone loves Iphones",
+      "date": "2022-10-06T05:00:00.000Z",
       "id": 1
     }
   ],
