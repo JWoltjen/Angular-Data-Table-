@@ -1,5 +1,7 @@
 # Angular CRUD Data Table
 
+![](https://github.com/JWoltjen/Angular-Material-Data-Table/blob/master/Recording%202022-10-06%20at%2014.10.16%20(1).gif)
+
 This is a simple tutorial that explores the making basic CRUD calls to a mocked json-server as well as implementing the fundamentals of the Material component library, specifically data-tables and dialogs. 
 
 The project also follows best practices by segregating services from UI components so there is a separation of concerns and observance of the single-responsibility principle. 
