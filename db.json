@@ -8,6 +8,51 @@
       "comment": "Everyone loves Iphones",
       "date": "2022-10-06T05:00:00.000Z",
       "id": 1
+    },
+    {
+      "productName": "Mangos",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 1.99,
+      "comment": "A bushel of mangos for two dollars!",
+      "date": "2022-10-04T05:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "Avocados",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 8.99,
+      "comment": "Avocados are expensive....",
+      "date": "2022-10-05T05:00:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "TrackIR",
+      "category": "Electronics",
+      "freshness": "Brand New",
+      "price": 799,
+      "comment": "An auxillary device that sends Infrared inputs to your computer for flight simulation games.",
+      "date": "2022-10-06T05:00:00.000Z",
+      "id": 5
+    },
+    {
+      "productName": "Mechanical Keyboard",
+      "category": "Electronics",
+      "freshness": "Second Hand",
+      "price": 39.99,
+      "comment": "Everyone loves a clickity clackity mechanical keyboard.",
+      "date": "2022-10-06T05:00:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "Strawberries",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 6.99,
+      "comment": "Strawberries are a great way to cool off an appetite.",
+      "date": "2022-10-05T05:00:00.000Z",
+      "id": 7
     }
   ],
   "comments": [
