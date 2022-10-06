@@ -29,3 +29,8 @@ If editData exists, we use the productForm.controls prototype method and set the
 
 ## Services  
 
+Because we follow separation of concerns, we have all of our get/put/post/delete calls to the mocked backend in one separate file, away from the components that use them. We call this file api.services. 
+
+The ApiService uses the HttpClient module from Angular, the rest of the crud functions are dead simple to implement. Subscribing to them is still fuzzy when the services get called by other components though, but it's simply a matter of using the angular syntax of subscribing to a service, and then using next and error etc. 
+
+
