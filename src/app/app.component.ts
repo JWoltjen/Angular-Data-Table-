@@ -31,7 +31,7 @@ export class AppComponent implements OnInit {
   openDialog() {
     this.dialog.open(DialogComponent, {
       width: '30%'
-      //after closed will re-call getAllProducts() so that the DOM is populated with the newly updated fields
+      //after closed will call getAllProducts() so that the DOM is populated with the newly fetched data/updated fields
     }).afterClosed().subscribe(val=>{
       if(val ==='save'){
         this.getAllProducts(); 
@@ -68,6 +68,7 @@ export class AppComponent implements OnInit {
     .subscribe({
       next:(res)=>{
         alert("Product deleted successfully")
+        //this isn't working correctly--the data table is not re-fetched after the row is deleted
         this.getAllProducts(); 
       },
       error:()=>{
